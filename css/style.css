@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  font-size: 20px;
+  background-color: #1a1d21;
+  color: white;
+}
+
+h1, h2, h3, .buttons {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  padding: 2rem;
+  text-shadow: 5px 3px 5px #08995d;
+}
+
+.buttons {
+  padding-bottom: 2rem;
+}
+
+.row {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+section {
+  background-image: linear-gradient(to right top, #1a1d21, #004353, #006f6b, #08995d, #90bb31);
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+}
+
+.currentMove{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ h2, h3 {
+   margin: 20px;
+ }
+
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-result {
+  border: 4px solid #90bb31;
+  border-radius: 3px;
+}
+
+.summary {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.btn-turq {
+  background-color: #0FA4A4;
+  color: white;
+}
+
+.btn-turq:hover {
+  background-color: #008686
+}
+
+span {
+  font-weight: bold;
+  text-align: center;
+}
+
+#verdict {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  margin: 2rem;
+  padding-bottom: 1rem;
+}
+
+#game_won {
+  color: green;
+}
+
+#game_lost {
+  color: red;
+}
+
+#game_draw {
+  color: #C2F84B;
+}
+
+#game_played {
+  color: #8E82DE;
+}

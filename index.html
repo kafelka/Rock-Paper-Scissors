@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en_GB">
+<head>
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="display-3">Rock Paper Scissors</h1>
+		<div class="buttons">
+<!--
+
+		<button id="rock" class="btn btn-info" value="rock"><img class="img-fluid" src="images/rock.jpg" alt="An image of rock." /></button>
+		<button id="paper" class="btn btn-success"value="paper"><img class="img-fluid" src="images/paper.jpg" alt="An image of paper." /></button>
+		<button id="scissors" class="btn btn-turq" value="scissors"><img class="img-fluid" src="images/scissors.jpg" alt="An image of scissors." /></button> -->
+
+
+
+			<button id="rock" class="btn btn-info btn-lg" value="rock">Rock</button>
+			<button id="paper" class="btn btn-success btn-lg" value="paper">Paper</button>
+			<button id="scissors" class="btn btn-turq btn-lg" value="scissors">Scissors</button>
+		</div>
+
+			<section>
+				<div class="currentMove">
+						<h2>Current move</h2>
+						<div class="row">
+							<div class="col col-md-6 col-sm-4">
+								<span>You:</span> <span id="play_you"></span>
+							</div>
+							<div class="col col-md-6 col-sm-4">
+								<span>Computer:</span> <span id="play_machine"></span>
+							</div>
+
+
+						</div>
+				</div>
+
+
+				<h2>Result</h2>
+				<div id="verdict"></div>
+				<div class="summary">
+					<p>Won: <span id="game_won">0</span></p>
+					<p>Lost: <span id="game_lost">0</span></p>
+					<p>Draw: <span id="game_draw">0</span></p>
+					<p>Played: <span id="game_played">0</span></p>
+				</div>
+			</section>
+
+
+	</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
