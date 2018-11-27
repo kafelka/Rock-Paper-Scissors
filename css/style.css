@@ -3,6 +3,7 @@ body {
   font-size: 20px;
   background-color: #1a1d21;
   color: white;
+  font-family: 'KoHo', sans-serif;
 }
 
 h1, h2, h3, .buttons {
@@ -11,7 +12,8 @@ h1, h2, h3, .buttons {
 }
 
 h1 {
-  padding: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
   text-shadow: 5px 3px 5px #08995d;
 }
 
@@ -20,7 +22,7 @@ h1 {
 }
 
 .row {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
 
@@ -39,7 +41,11 @@ button {
   justify-content: center;
 }
 
- h2, h3 {
+h2 {
+  margin-top: 0.5rem;
+}
+
+ h3 {
    margin: 20px;
  }
 
